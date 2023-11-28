@@ -67,8 +67,8 @@ a:hover {
 
 p,
 h2 {
-  text-align:start;
-   max-width: 582px;
+  text-align: start;
+  max-width: 582px;
   color: var(--White);
   font-size: 16px;
   font-weight: 500;
@@ -78,9 +78,10 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 1200px){
-  .content, .hero-image {
-   display: block;
+@media (max-width: 1200px) {
+  .good {
+    display: block;
+    justify-items:center;
   }
 }
 p {
@@ -110,9 +111,8 @@ h2 {
 }
 #hero {
   padding-top: 188px;
- padding-bottom: 128px;
+  padding-bottom: 128px;
 }
 .hero-image img {
   width: 100%;
 }
-
